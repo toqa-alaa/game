@@ -7,7 +7,6 @@ import Privacy from "./pages/Privacy"
 import RoadMap from "./pages/RoadMap"
 import Team from "./pages/Team"
 import HomePage from "./pages/HomePage";
-import "./app.css"
 import "./index.css"
 
 
