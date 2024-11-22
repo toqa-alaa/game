@@ -1,0 +1,134 @@
+.header-wrapper {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    margin: 0 35px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+  }
+  
+  .nav-links a:hover {
+    color: gold;
+  }
+  
+  .logo-container {
+    text-align: center;
+    flex-shrink: 0;
+  }
+  
+  .right-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .marketplace-link {
+    margin-right: 75px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .marketplace-link:hover {
+    color: gold;
+  }
+  
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none;
+    }
+  
+    .right-section {
+    }
+  
+    .navbar {
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .navbar {
+      padding: 10px;
+    }
+  
+    .logo-container {
+      margin-bottom: 10px;
+    }
+  
+    .marketplace-link {
+      font-size: 14px;
+    }
+  }
+  .connect-wallet {
+    background-color: gold;
+    position: relative;
+  width: fit-content;
+  padding: 5px 10px;
+  overflow: hidden;
+
+ 
+             
+        
+        
+  clip-path: polygon(0% 31%, 20% -1%, 131% -11%, 83% 103%, -9% 130%);
+
+  }
+  .connect{
+    size: 70%;
+  }
+  .flick .text {
+    position: relative;
+    z-index: 50;
+  }
+  .flick {
+    background-color: #FFC107;
+    color: white;
+    margin-left:50%;
+    padding: 2px;
+  }
+  .flick:before {
+    background: #FFC107;
+    content: "";
+    height: 50px;
+    margin: -53px 0 0 121px;
+    position: absolute;
+    transform: skew(-45deg);
+    width: 3px;
+    border-radius: 5px;
+  }
+  .flick:after {
+    background: #FFC107;
+    content: "";
+    height: 50px;
+    margin: -53px 0 0 121px;
+    position: absolute;
+    transform: skew(45deg);
+    width: 3px;
+    border-radius: 5px;
+  }

@@ -1,0 +1,10 @@
+.NotchedBtn {
+    position: relative;
+    width: fit-content;
+ 
+    overflow: hidden;
+   background-image: url(../assets/Button@2x.svg);
+
+  }
+  
+  
